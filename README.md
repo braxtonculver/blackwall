@@ -48,19 +48,47 @@ It’s also perfect for casual users who want to streamline their PC experience 
 
 ## ⚠️ Disclaimer
 
-**Blackwall** makes significant modifications to your Windows system, including:
+**Blackwall** performs extensive modifications to Windows that go far beyond simple tweaks. Before running, understand what it does, what it can do, and how it may affect your system.
 
-- Removing preinstalled apps and system components  
-- Disabling telemetry and background services  
-- Tweaking privacy, performance, and gaming settings  
-- Installing curated software bundles via Winget  
+### What It Does
 
-Because of the extent of these changes, some antivirus software may flag certain actions or scripts as suspicious. While **Blackwall is safe when used as intended**, it fundamentally alters the system in ways that Windows itself might not expect.  
+- **Debloating Windows**  
+  Removes preinstalled apps, optional features, and other bloat based on your selected preset (Minimal, Balanced, Aggressive, or Barebones).  
+  Expect some system apps to disappear—things like Xbox components, bundled store apps, and unnecessary background services may be removed.
 
-**Use at your own risk.** We strongly recommend:
+- **Privacy & Telemetry Hardening**  
+  Disables Windows telemetry, data collection, system suggestions, Cortana integration, and other background services that may track usage.  
+  Some functionality may be limited; for example, certain Windows Store features or live tiles might not work.
 
-- Reviewing the PowerShell script before running it  
-- Running in `-DryRun` mode first to see what will be changed  
-- Backing up important data or creating a system restore point  
+- **Performance & Gaming Optimizations**  
+  Applies tweaks like GPU scheduling adjustments, high-performance power plans, GameDVR/game mode tweaks, and network optimizations.  
+  Expect improved system responsiveness and gaming performance, but some default OS behaviors may be altered.
+
+- **Automated Application Installation**  
+  Installs curated application bundles using Winget (Essentials, Browsers, Development Tools, Creators, Gaming, Runtimes).  
+  Optional manual selection is available, but some apps may require elevated privileges or user input during installation.
+
+- **System State Management**  
+  Supports manifest export/import for installed apps and settings, enabling consistent setup across multiple machines or redeployments.
+
+- **Logging & Auditing**  
+  Generates detailed logs and JSON summaries for all actions taken, which can be used for auditing or troubleshooting.
+
+### What to Expect
+
+- Some Windows features may break or behave differently.  
+- Certain security software may flag the script due to the nature of system modifications.  
+- Running in `-DryRun` mode is strongly recommended to preview all planned changes.  
+- Back up important data or create a system restore point before executing.  
+
+### Use at Your Own Risk
+
+While **Blackwall is safe when used responsibly**, it fundamentally alters your system. Users should:
+
+- Review the code themselves to understand every action.  
+- Test in a controlled environment (VM or secondary machine) if unsure.  
+- Accept that by running Blackwall, they are responsible for all changes applied to their system.
+
+By proceeding, you acknowledge these risks and confirm that you understand the extent of the modifications Blackwall makes.
 
 By using Blackwall, you acknowledge that you understand these risks and accept responsibility for the changes applied to your system.
