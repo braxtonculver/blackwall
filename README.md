@@ -20,7 +20,7 @@ Logging & Reporting: Generates detailed logs and JSON summaries for auditing or 
 
 Usage Examples
 # Preview planned changes
-```<powershell>.\blackwall.ps1 -DryRun```
+<pre>```.\blackwall.ps1 -DryRun```
 
 # Install only core system utilities (Barebones)
 .\blackwall.ps1 -Barebones
