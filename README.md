@@ -40,4 +40,4 @@ Blackwall is a PowerShell-based utility designed to streamline Windows deploymen
 
 ## Intended Use
 
-Suitable for IT professionals, system administrators, and power users who require efficient, repeatable Windows setup processes across multiple systems or deployments.
+Suitable for IT professionals, system administrators, and power users who require efficient, repeatable Windows setup processes across multiple systems or deployments. Maybe you're just a casual user that wants to ditch the inane amount of bloat in windows. 
