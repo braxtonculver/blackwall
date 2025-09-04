@@ -43,3 +43,22 @@ Blackwall is a PowerShell-based utility designed to streamline Windows deploymen
 **Blackwall** is designed for IT professionals, system administrators, and power users who need efficient, repeatable Windows setup processes across multiple systems.  
 
 It’s also perfect for casual users who want to streamline their PC experience by removing unnecessary Windows bloat and applying sensible privacy, performance, and QoL tweaks—without diving into complicated manual configurations.
+
+## ⚠️ Disclaimer
+
+**Blackwall** makes significant modifications to your Windows system, including:
+
+- Removing preinstalled apps and system components  
+- Disabling telemetry and background services  
+- Tweaking privacy, performance, and gaming settings  
+- Installing curated software bundles via Winget  
+
+Because of the extent of these changes, some antivirus software may flag certain actions or scripts as suspicious. While **Blackwall is safe when used as intended**, it fundamentally alters the system in ways that Windows itself might not expect.  
+
+**Use at your own risk.** We strongly recommend:
+
+- Reviewing the PowerShell script before running it  
+- Running in `-DryRun` mode first to see what will be changed  
+- Backing up important data or creating a system restore point  
+
+By using Blackwall, you acknowledge that you understand these risks and accept responsibility for the changes applied to your system.
