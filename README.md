@@ -38,6 +38,40 @@ Blackwall is a PowerShell-based utility designed to streamline Windows deploymen
 
 ---
 
+## 🔨 Building Blackwall into an EXE
+
+Blackwall is written in PowerShell, but you can package it into a standalone `.exe` for easier distribution using **PS2EXE**.
+
+### Step 1 — Install PS2EXE
+Open PowerShell as Administrator and run:
+Install-Module -Name ps2exe -Scope CurrentUser
+
+If prompted about untrusted repositories, type Y and hit Enter.
+
+---
+
+### Step 2 — Convert the Script
+Navigate to the folder containing `blackwall.ps1` and run:
+Invoke-PS2EXE .\blackwall.ps1 .\blackwall.exe
+
+This will generate `blackwall.exe` in the same directory.
+
+---
+
+### Step 3 — Run the EXE
+You can now run Blackwall just like any other Windows program:
+.\blackwall.exe
+
+⚠️ Note: Antivirus software may flag the EXE because it modifies system components. This is expected due to the nature of what Blackwall does.
+
+---
+
+### Optional — Custom Icon
+You can add a custom icon by running:
+Invoke-PS2EXE .\blackwall.ps1 .\blackwall.exe -iconFile .\icon.ico
+
+---
+
 ## Intended Use
 
 **Blackwall** is designed for IT professionals, system administrators, and power users who need efficient, repeatable Windows setup processes across multiple systems.  
