@@ -44,6 +44,8 @@ Blackwall is a PowerShell-based utility designed to streamline Windows deploymen
 
 It’s also perfect for casual users who want to streamline their PC experience by removing unnecessary Windows bloat and applying sensible privacy, performance, and QoL tweaks—without diving into complicated manual configurations.
 
+---
+
 ## ⚠️ Disclaimer
 
 **Blackwall** makes significant modifications to your Windows system, including:
