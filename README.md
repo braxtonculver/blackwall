@@ -17,17 +17,17 @@ DryRun Mode: Allows users to preview all planned changes before execution.
 Manifest Export/Import: Records and restores system state and installed packages for consistency across multiple systems or deployments.
 
 Logging & Reporting: Generates detailed logs and JSON summaries for auditing or compliance purposes.
-
+```
 Usage Examples
 # Preview planned changes
-<pre>```.\blackwall.ps1 -DryRun```
+.\blackwall.ps1 -DryRun
 
 # Install only core system utilities (Barebones)
 .\blackwall.ps1 -Barebones
 
 # Full system setup
 .\blackwall.ps1
-
+```
 Requirements
 
 Windows 10 or later
