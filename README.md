@@ -90,5 +90,3 @@ While **Blackwall is safe when used responsibly**, it fundamentally alters your 
 - Accept that by running Blackwall, they are responsible for all changes applied to their system.
 
 By proceeding, you acknowledge these risks and confirm that you understand the extent of the modifications Blackwall makes.
-
-By using Blackwall, you acknowledge that you understand these risks and accept responsibility for the changes applied to your system.
