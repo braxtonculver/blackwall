@@ -1,4 +1,4 @@
-Blackwall — Windows Debloat & Setup Wizard
+# Blackwall — Windows Debloat & Setup Wizard
 
 Blackwall is a PowerShell-based utility designed to streamline Windows deployment and post-install configuration. It provides a comprehensive, automated approach for system debloating, privacy hardening, application installation, and system optimization.
 
@@ -20,7 +20,7 @@ Logging & Reporting: Generates detailed logs and JSON summaries for auditing or 
 
 Usage Examples
 # Preview planned changes
-.\blackwall.ps1 -DryRun
+```.\blackwall.ps1 -DryRun```
 
 # Install only core system utilities (Barebones)
 .\blackwall.ps1 -Barebones
